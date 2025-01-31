@@ -22,7 +22,7 @@ pd.set_option('display.max_rows', 100)
 np.set_printoptions(suppress=True, threshold=5000, edgeitems=10)
 
 # bring in the data
-full_path = os.path.join(os.getcwd(),'Mattson Music', 'mattsonmusic.json')
+full_path = os.path.join(os.getcwd(), 'streamingdata.json')
 my_df = pd.read_json(full_path)
 
 # Checking if data was loaded properly
